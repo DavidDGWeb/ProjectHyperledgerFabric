@@ -52,7 +52,7 @@
 ```http://localhost:8080/#/login```  
 ```"User: exploreradmin  |  Pass: exploreradminpw'''   
 ```  ```    
-## Para hacer los test en la red con el chaincode, a través del frontal Swagger, ver el documento técnico [ProjectLuxuryClothing_DGWeb.pdf]##   
+## Para hacer los test en la red con el chaincode, a través del frontal Swagger, ver el documento técnico ProjectLuxuryClothing_DGWeb.pdf ##   
 
 
 
