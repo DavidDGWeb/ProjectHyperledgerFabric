@@ -34,8 +34,8 @@
 ```sudo mkdir explorer```  
 ```sudo chmod -R 777 * explorer/```  
 ```cd explorer/```  
-```wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/examples/net1/config.json```
-```wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/examples/net1/connection-profile/test-network.json -P connection-profile``` 
+```wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/examples/net1/config.json```   
+```wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/examples/net1/connection-profile/test-network.json -P connection-profile```   
 ```wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/docker-compose.yaml```  
 ### Copiamos los crypto artefactos de la red ###   
 ```sudo cp -r ~/fabric-samples/test-network/organizations/ ~/explorer/```  
@@ -44,7 +44,7 @@
 ```sudo docker-compose up -d```  
 ```http://localhost:8080/#/login```  
 
-## Para hacer las pruebas a través del frontal Swagger y el chaincode en la red, ver el documento técnico de despliegue ##   
+## Para hacer los test en la red con el chaincode, a través del frontal Swagger, ver el documento técnico ProjectLuxuryClothing_DGWeb.pdf ##   
 
 
 
