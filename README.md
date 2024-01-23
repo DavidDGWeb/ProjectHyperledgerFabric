@@ -5,7 +5,7 @@
 ## Instalar componentes necesarios ##   
 ```- Docker & docker-compose```   
 ```- curl```     
-```- jp```   
+```- jq```   
 ```- Java```     
 ```- IntelliJ IDEA```    
 ### Descargamos los binarios de Hyperledger Fabric y ejemplos de Docker ###   
