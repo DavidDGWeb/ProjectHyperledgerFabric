@@ -1,7 +1,7 @@
 # PROYECTO BLOCKCHAIN HYPERLEDGER FABRIC
-### El objetivo de este proyecto es desarrollar una red Hyperledger Fabric que registre en la blockchain, las prendas fabricadas de marcas de lujo para evitar la venta de falsificaciones. A si mismo los puntos de venta de las marcas al vender las prendas, pondrán asignar al propietario de la misma, que mediante un código qr dará la veracidad de la prenda y de su propiedad. ###   
-###   ###   
-### El chaincode también está diseñado para desde un punto de venta hacer la transferencia de la prenda a otro propietario, así como saber la lista de propietarios que ha tenido la prenda.###   
+> El objetivo de este proyecto es desarrollar una red Hyperledger Fabric que registre en la blockchain, las prendas fabricadas de marcas de lujo para evitar la venta de falsificaciones. A si mismo los puntos de venta de las marcas al vender las prendas, pondrán asignar al propietario de la misma, que mediante un código qr dará la veracidad de la prenda y de su propiedad.    
+>
+> El chaincode también está diseñado para que desde un punto de venta, se pueda hacer la transferencia de la prenda a otro propietario, así como saber la lista de propietarios que ha tenido la prenda.
 ## Instalar componentes necesarios ##   
 ```- Docker & docker-compose```   
 ```- curl```     
