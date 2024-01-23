@@ -8,6 +8,8 @@
 ```sudo chmod -R 777 * fabric-samples```  
 ## Descargamos el chaincode y el API del repositorio GitHub ##   
 ### Alojamos la carpeta chaincode y gateway dentro de fabric-samples ###  
+```fabric-samples/test-network/chaincode```  
+```fabric-samples/test-network/gateway```  
 ## Desplegamos la red de Hyperledger Fabric con un servicio orderer, dos nodos peers, certificación Ca, BBDD CouchDB y un canal mychannel ##
 ```cd fabric-samples/test-network```   
 ```./network.sh up createChannel -ca -s couchdb```  
