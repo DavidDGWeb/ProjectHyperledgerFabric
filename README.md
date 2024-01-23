@@ -35,6 +35,7 @@
 ```sudo docker-compose up -d```  
 ```Prometheus: http://localhost:9090/``` 
 ```Grafana: http://localhost:3000/login/```  
+```User: admin  |  Pass: admin```  
 ## Instalamos y desplegamos Hyperledger Explorer ##   
 ### En la raíz creamos la carpeta explorer y descargamos lo archivos de instalación ###   
 ```sudo mkdir explorer```  
@@ -49,7 +50,8 @@
 ### Desplegamos Hyperledger Explorer ###   
 ```sudo docker-compose up -d```  
 ```http://localhost:8080/#/login```  
-
+```"User: exploreradmin  |  Pass: exploreradminpw'''   
+'''  '''  
 ## Para hacer los test en la red con el chaincode, a través del frontal Swagger, ver el documento técnico ProjectLuxuryClothing_DGWeb.pdf ##   
 
 
