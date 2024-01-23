@@ -25,7 +25,10 @@
 ```watch docker ps```  
 ## Deployamos el chaincode en la red ##   
 ```./network.sh deployCC -ccn chaincode -ccp ../chaincode/ -ccl java```  
-## Explorador de la red para ver métricas y log ##   
+## Inspeccionamos la BBDD con CounchDB ##   
+```http://localhost:5984/_utils/#login```  
+```User: admin | Pass: adminpw```  
+## Explorador de la red para ver las métricas y los logs ##   
 ### Desplegamos Prometheus y Grafana ###   
 ```fabric-samples/test-network/prometheus-grafana```   
 ```*Ver el documento técnico de despliegue para configuración del docker-compose.yaml```  
