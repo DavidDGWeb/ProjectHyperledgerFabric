@@ -22,3 +22,30 @@
 ```watch docker ps```  
 ## Deployamos el chaincode en la red ##   
 ```./network.sh deployCC -ccn chaincode -ccp ../chaincode/ -ccl java```  
+## Explorador de la red para ver métricas y log ##   
+### Desplegamos Prometheus y Grafana ###   
+```fabric-samples/test-network/prometheus-grafana```   
+```*Ver el documento técnico de despliegue para configuración del docker-compose.yaml```  
+```sudo docker-compose up -d```  
+```Prometheus: http://localhost:9090/``` 
+```Grafana: http://localhost:3000/login/```  
+### Instalamos y desplegamos Hyperledger Explorer ###   
+## En la raíz creamos la carpeta explorer y descargamos lo archivos de instalación ##   
+```sudo mkdir explorer```  
+```sudo chmod -R 777 * explorer/```  
+```cd explorer/```  
+```wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/examples/net1/config.json```
+```wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/examples/net1/connection-profile/test-network.json -P connection-profile``` 
+```wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/docker-compose.yaml```  
+## Copiamos los crypto artefactos de la red ##   
+```sudo cp -r ~/fabric-samples/test-network/organizations/ ~/explorer/```  
+```*Ver el documento técnico de despliegue para configuración del docker-compose.yaml``` 
+## Desplegamos Hyperledger Explorer ##   
+```sudo docker-compose up -d```  
+```http://localhost:8080/#/login```  
+
+## Para hacer las pruebas a través del frontal Swagger y el chaincode en la red, ver el documento técnico de despliegue ##   
+
+
+
+
